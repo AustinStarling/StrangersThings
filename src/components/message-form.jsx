@@ -5,7 +5,6 @@
 // Submit handler will need a way to know how to form the correct URL so the API responds
 
 
-import { isAbsolute } from "path";
 import { useState } from "react";
 
 const messageForm = ({onMessageSubmit, isAuthenticated }) => {
